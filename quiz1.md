@@ -18,17 +18,17 @@ array取值的方式用index, 從0到array.length-1為可存取之索引範圍
 hash取值用key值, key值可不須為有序數字, 也可用字串作為鍵值, 類似Python的Dictionary或是Javascript的JSON
 
 4. 請寫一段 code 從 [1, "a string", 3.14, [1,2,3,4]] 這個陣列找出所有非字串的值
-```
-arr = [1, "a string", 3.14, [1,2,3,4]]
-
-for i in (0...arr.length)
-  if arr[i].class != "String".class
-    puts arr[i].class
-  else
-    next
+  ```ruby
+  arr = [1, "a string", 3.14, [1,2,3,4]]
+  
+  for i in (0...arr.length)
+    if arr[i].class != "String".class
+      puts arr[i].class
+    else
+      next
+    end
   end
-end
-```
+  ```
 
 5. 請列出兩種產出亂數的方法
   ```ruby
