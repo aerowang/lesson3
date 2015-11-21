@@ -31,8 +31,10 @@ end
 ```
 
 5. 請列出兩種產出亂數的方法
-num = rand(1..5) # 1~5
-num = [1, 2, 3, 4, 5].shuffle.last
+  ```ruby
+  num = rand(1..5) # 1~5
+  num = [1, 2, 3, 4, 5].shuffle.last
+  ```
 
 6. 請把 lesson1 程式碼裡的 calculator.rb 裡面的使用者輸入兩個數字的方式改寫成 method，並要有防止使用者亂輸入值的功能
 
